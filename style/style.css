@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.container {
+  background-color: #d8d7ff;
+  padding: 40px 10px;
+}
+
 .box {
   display: flex;
   justify-content: center;
@@ -11,7 +16,22 @@
   width: 100px;
   height: 100px;
   margin: 10px;
-  background-color: #190f65;
+  background-color: #128b6d;
   color: #c2c2c2;
   font-size: 20px;
+}
+
+.box.fizz {
+  background-color: #c6e919;
+  color: #1c1c1c;
+}
+
+.box.buzz {
+  background-color: #1c1b75;
+  color: #e9e9e9;
+}
+
+.box.fizzbuzz {
+  background-color: #6ee208;
+  color: #1c1c1c;
 }
