@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #1c1b75;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0 40px;
+  color: #000;
+  font-weight: 700;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .container {
   background-color: #d8d7ff;
   padding: 40px 10px;

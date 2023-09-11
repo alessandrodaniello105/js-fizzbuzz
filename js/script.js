@@ -1,7 +1,12 @@
 const boxesContainer = document.querySelector('.boxes');
 let boxEl;
 
-for (let i = 1; i <= 30; i++) {
+
+boxesContainer.innerHTML += `
+  <h1>Questo è il mio FizzBuzz</h1>
+`;
+
+for (let i = 1; i <= 100; i++) {
 
   boxEl = document.createElement('div');
   boxEl.classList.add('box');
