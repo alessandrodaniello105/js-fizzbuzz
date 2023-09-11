@@ -12,7 +12,7 @@ for (let i = 1; i <= 100; i++) {
   boxEl.classList.add('box');
   boxEl.append(i);
 
-  if (!(i % 15)) {
+  if ((!(i % 3)) && (!(i % 5))) {
 
     boxEl.innerHTML = '';
     boxEl.append('FizzBuzz');
