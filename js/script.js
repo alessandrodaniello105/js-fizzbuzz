@@ -11,22 +11,25 @@ for (let i = 1; i <= 100; i++) {
   boxEl = document.createElement('div');
   boxEl.classList.add('box');
 
-  if ((!(i % 3)) && (!(i % 5))) {
+  if ((i % 3 === 0) && (i % 5 === 0)) {
 
     boxEl.append('FizzBuzz');
     boxEl.classList.add('fizzbuzz');
     
-  } else if (!(i % 5)) {
+  } else if (i % 5 === 0) {
+    
     boxEl.append('Buzz');
     boxEl.classList.add('buzz');
 
-  } else if (!(i % 3)) {
+  } else if (i % 3 === 0) {
 
     boxEl.append('Fizz');
     boxEl.classList.add('fizz');
 
   } else {
+
     boxEl.append(i);
+
   }
 
   boxesContainer.append(boxEl);
